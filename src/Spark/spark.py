@@ -31,7 +31,7 @@ def sessionizer(df):
 	return df
 
 
-def write_db(df)
+def write_db(df):
 	df.write \
 	        .format("jdbc") \
 	        .option("url" , "jdbc:postgresql://10.0.0.13:5431/network_db") \

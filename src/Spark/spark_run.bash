@@ -1,0 +1,1 @@
+spark-submit --packages com.amazonaws:aws-java-sdk:1.7.5,org.apache.hadoop:hadoop-aws:2.7.7,org.postgresql:postgresql:42.2.16 --conf spark.executor.extraJavaOptions=-Dcom.amazonaws.services.s3.enableV4=true --conf spark.driver.extraJavaOptions=-Dcom.amazonaws.services.s3.enableV4=true --master spark://10.0.0.11:7077 /home/ubuntu/spark.py

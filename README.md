@@ -35,9 +35,16 @@ The data is from an open source [dataset](https://www.unb.ca/cic/datasets/) prov
 
 ## Frontend
 
-(To be added)
+![Image of user interface](images/UI.png)
 
-## Challenges 
+## Challenges
+
+The major engineering challenges I encountered, including, but not limited to:
+
+- Time-consuming process of converting pcap files to CSV files
+- Sessionize the data to improve the efficiency of user behavior analysis
 
 ## Future Improvements
 
+- Real-time network analysis
+- More information be provided at the frontend
